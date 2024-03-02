@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample HTML Page</title>
+</head>
+<body>
+    <header>
+        <h1>Hi Gurukiran!</h1>
+    </header>
+    
+    <p>(See, you can understand C codes right? So line starts in next after a code, okay?)</p>
+    
+    <pre>
+        <code>*Write a C Program To Display An Integer*
+#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+main()
+{
+    int number=42;
+    printf("%d",number);
+    getch();
+}</code>
+    </pre>
+    
+    <pre>
+        <code>*Write A C Program To swap 2 values*
+#include&lt;stdio.h&gt;
+main()
+{
+    int a,b,temp;
+    printf("Enter The Number");
+    scanf("%d%d",&a,&b);
+    temp=a;
+    a=b;
+    b=temp;
+    printf("Swapped Values are:");
+    printf("a=%d,b=%d",a,b);
+}</code>
+    </pre>
+    
+    <pre>
+        <code>*Write a C Program To find area and circumference of a circle*
+#include&lt;stdio.h&gt;
+main()
+{
+    float radius,area,perimeter;
+    printf("Enter The Radius of the Circle:");
+    scanf("%f",&radius);
+    area=3.14*radius*radius;
+    perimeter=2*3.14*radius;
+    printf("\n\nThe area of the circle with radius %f is %f",radius,area);
+    printf("\n\nThe Circumference of the circle is %f",perimeter);
+    getch();
+}</code>
+    </pre>
+    
+    <pre>
+        <code>*Write A C Program to Find Whether The Given Number Is Odd Or Even*
+#include&lt;stdio.h&gt;
+int main()
+{
+    int number;
+    printf("Enter the number: ");
+    scanf("%d",&number);
+    if(number%2==0)
+        printf("Number %d is even",number);
+    else
+        printf("Number %d is odd",number);
+    return 0;
+}</code>
+    </pre>
+    
+    <pre>
+        <code>*Write A C program To Print The alphabet A to Z*
+#include&lt;stdio.h&gt;
+#include&lt;conio.h&gt;
+main()
+{
+    int i;
+    for(i=65;i<=90;i++)
+    {
+        printf("%c\n",i);
+    }
+    getch();
+}</code>
+    </pre>
+</body>
+</html>
